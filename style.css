@@ -1,0 +1,57 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+body {
+  margin: 5px;
+  margin-top: 15px;
+  background-color: rgb(121, 99, 0);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#App {
+  padding: 10px;
+  background-color: rgb(226, 203, 97);
+  border: 2px black solid;
+  width: 98%;
+}
+
+button {
+  margin: 5px 5px 5px 0px;
+  background-color: rgb(214, 193, 125);
+  border-radius: 5px;
+}
+
+textarea {
+  white-space: pre-wrap; /** PRSERVE THAT WHITESPACE YO */
+}
+
+.note-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  max-width: 300px;
+  border: 1px solid rgb(114, 114, 114);
+  background-color: rgb(230, 208, 148);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.slider-parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-child {
+  margin: 2px;
+  padding: 2px;
+}
